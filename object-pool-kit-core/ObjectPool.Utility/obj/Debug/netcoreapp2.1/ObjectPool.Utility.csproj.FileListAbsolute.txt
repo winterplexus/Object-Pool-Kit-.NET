@@ -1,0 +1,8 @@
+C:\Users\spanglee\Source\repos\projects\object-pool-kit\object-pool-kit-core\ObjectPool.Utility\bin\Debug\netcoreapp2.1\ObjectPool.Utility.deps.json
+C:\Users\spanglee\Source\repos\projects\object-pool-kit\object-pool-kit-core\ObjectPool.Utility\bin\Debug\netcoreapp2.1\ObjectPool.Utility.dll
+C:\Users\spanglee\Source\repos\projects\object-pool-kit\object-pool-kit-core\ObjectPool.Utility\bin\Debug\netcoreapp2.1\ObjectPool.Utility.pdb
+C:\Users\spanglee\Source\repos\projects\object-pool-kit\object-pool-kit-core\ObjectPool.Utility\obj\Debug\netcoreapp2.1\ObjectPool.Utility.csproj.CoreCompileInputs.cache
+C:\Users\spanglee\Source\repos\projects\object-pool-kit\object-pool-kit-core\ObjectPool.Utility\obj\Debug\netcoreapp2.1\ObjectPool.Utility.AssemblyInfoInputs.cache
+C:\Users\spanglee\Source\repos\projects\object-pool-kit\object-pool-kit-core\ObjectPool.Utility\obj\Debug\netcoreapp2.1\ObjectPool.Utility.AssemblyInfo.cs
+C:\Users\spanglee\Source\repos\projects\object-pool-kit\object-pool-kit-core\ObjectPool.Utility\obj\Debug\netcoreapp2.1\ObjectPool.Utility.dll
+C:\Users\spanglee\Source\repos\projects\object-pool-kit\object-pool-kit-core\ObjectPool.Utility\obj\Debug\netcoreapp2.1\ObjectPool.Utility.pdb

@@ -1,0 +1,12 @@
+C:\Users\spanglee\Source\repos\projects\object-pool-kit\object-pool-kit-core\ObjectPool.Log\bin\Debug\netcoreapp2.1\ObjectPool.Log.deps.json
+C:\Users\spanglee\Source\repos\projects\object-pool-kit\object-pool-kit-core\ObjectPool.Log\bin\Debug\netcoreapp2.1\ObjectPool.Log.dll
+C:\Users\spanglee\Source\repos\projects\object-pool-kit\object-pool-kit-core\ObjectPool.Log\bin\Debug\netcoreapp2.1\ObjectPool.Log.pdb
+C:\Users\spanglee\Source\repos\projects\object-pool-kit\object-pool-kit-core\ObjectPool.Log\bin\Debug\netcoreapp2.1\ObjectPool.Utility.dll
+C:\Users\spanglee\Source\repos\projects\object-pool-kit\object-pool-kit-core\ObjectPool.Log\bin\Debug\netcoreapp2.1\ObjectPool.Utility.pdb
+C:\Users\spanglee\Source\repos\projects\object-pool-kit\object-pool-kit-core\ObjectPool.Log\obj\Debug\netcoreapp2.1\ObjectPool.Log.csprojAssemblyReference.cache
+C:\Users\spanglee\Source\repos\projects\object-pool-kit\object-pool-kit-core\ObjectPool.Log\obj\Debug\netcoreapp2.1\ObjectPool.Log.csproj.CoreCompileInputs.cache
+C:\Users\spanglee\Source\repos\projects\object-pool-kit\object-pool-kit-core\ObjectPool.Log\obj\Debug\netcoreapp2.1\ObjectPool.Log.AssemblyInfoInputs.cache
+C:\Users\spanglee\Source\repos\projects\object-pool-kit\object-pool-kit-core\ObjectPool.Log\obj\Debug\netcoreapp2.1\ObjectPool.Log.AssemblyInfo.cs
+C:\Users\spanglee\Source\repos\projects\object-pool-kit\object-pool-kit-core\ObjectPool.Log\obj\Debug\netcoreapp2.1\ObjectPool.Log.csproj.CopyComplete
+C:\Users\spanglee\Source\repos\projects\object-pool-kit\object-pool-kit-core\ObjectPool.Log\obj\Debug\netcoreapp2.1\ObjectPool.Log.dll
+C:\Users\spanglee\Source\repos\projects\object-pool-kit\object-pool-kit-core\ObjectPool.Log\obj\Debug\netcoreapp2.1\ObjectPool.Log.pdb
