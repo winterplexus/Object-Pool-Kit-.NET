@@ -1,5 +1,5 @@
-dotnet-object-pool-kit
-----------------------
+Object Pool for .NET
+--------------------
 Application tool kit based on .NET Core and .NET Framework platforms for implementing object pools using intrinsic concurrency and custom object pool classes.
 
 The kit includes the following components:
