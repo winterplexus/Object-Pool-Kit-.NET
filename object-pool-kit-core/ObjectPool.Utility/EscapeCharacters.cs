@@ -1,7 +1,7 @@
 ﻿//
 //  EscapeCharacters.cs
 //
-//  Copyright (c) Wiregrass Code Technology 2018
+//  Copyright (c) Wiregrass Code Technology 2018-2020
 //        
 namespace ObjectPool.Utility
 {
