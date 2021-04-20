@@ -1,14 +1,14 @@
 ﻿//
 //  NumberFormats.cs
 //
-//  Copyright (c) Wiregrass Code Technology 2018-2020
+//  Copyright (c) Wiregrass Code Technology 2018-2021
 //
 using System;
 using System.Text;
 
 namespace ObjectPool.Utility
 {
-    public static class NumberFormats
+    public class NumberFormats: INumberFormats
     {
         private static readonly string[] ordinalsTable =
         {
@@ -25,7 +25,7 @@ namespace ObjectPool.Utility
             "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"
         };
 
-        public static string GetOrdinal(int number)
+        public string GetOrdinal(int number)
         {
             if (((number %= 100) > 9 && number < 20) || (number %= 10) > 3)
             {
@@ -34,7 +34,7 @@ namespace ObjectPool.Utility
             return (ordinalsTable[number]);
         }
 
-        public static string GetLiteralAmount(double amount)
+        public string GetLiteralAmount(double amount)
         {
             var buffer = new StringBuilder { Length = 0 };
 

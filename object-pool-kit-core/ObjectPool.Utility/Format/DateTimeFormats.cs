@@ -1,7 +1,7 @@
 ﻿//
 //  DateTimeFormats.cs
 //
-//  Copyright (c) Wiregrass Code Technology 2018-2020
+//  Copyright (c) Wiregrass Code Technology 2018-2021
 //
 using System;
 using System.Globalization;
@@ -9,7 +9,7 @@ using System.Text;
 
 namespace ObjectPool.Utility
 {
-    public class DateTimeFormats
+    public class DateTimeFormats: IDateTimeFormats
     {
         private static readonly string[] dowTable =
         {
@@ -31,12 +31,12 @@ namespace ObjectPool.Utility
             "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct","Nov", "Dec"
         };
 
-        private StringCharacterIterator specificationIterator;
+        private CharacterIterator specificationIterator;
         private int specificationIndex;
 
-        public string Format(string specification)
+        public string Format(string dateTimeSpecification)
         {
-            return Format(specification, DateTime.Now);
+            return Format(dateTimeSpecification, DateTime.Now);
         }
 
         /**
@@ -64,18 +64,18 @@ namespace ObjectPool.Utility
          *                   %Z - time zone name
          *                   %% - a single %
          */
-        public string Format(string specification, DateTime dateTime)
+        public string Format(string dateTimeSpecification, DateTime dateTime)
         {
             var buffer = new StringBuilder { Length = 0 };
 
-            if (string.IsNullOrEmpty(specification))
+            if (string.IsNullOrEmpty(dateTimeSpecification))
             {
                 return buffer.ToString();
             }
 
-            SetSpecificationIterator(specification);
+            SetSpecificationIterator(dateTimeSpecification);
 
-            while (specificationIndex < specificationIterator.EndIndex)
+            while (specificationIndex < specificationIterator.GetEndIndex())
             {
                 var value = GetNextSpecificationCharacter();
                 if (value == '%')
@@ -106,7 +106,7 @@ namespace ObjectPool.Utility
 
         private void SetSpecificationIterator(string specification)
         {
-            specificationIterator = new StringCharacterIterator(specification);
+            specificationIterator = new CharacterIterator(specification);
             specificationIndex = 0;
         }
 
@@ -117,7 +117,7 @@ namespace ObjectPool.Utility
             {
                 return specificationIterator.First();
             }
-            return specificationIndex > specificationIterator.EndIndex ? StringCharacterIterator.Done : specificationIterator.Next();
+            return specificationIndex > specificationIterator.GetEndIndex() ? specificationIterator.AtEnd() : specificationIterator.Next();
         }
 
         private static StringBuilder FormatDateUsingSpecificationValue(char value, DateTime dt, StringBuilder buffer)
